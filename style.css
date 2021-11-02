@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+.game {
+  width: 500px;
+  height: 200px;
+  border: 1px solid #ffd1b3; 
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+#character {
+  width: 20px;
+  height: 50px;
+  background-color:  #ffb366;
+  position: relative;
+  top: 150px;
+}
+.animate {
+  animation: jump 0.3s linear;
+}
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 100px;
+  }
+  70% {
+    top: 100px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+#block {
+  background-color: #ffb3ff;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 130px;
+  left: 500px;
+  animation: block 1s infinite linear;
+}
+@keyframes block {
+  0% {
+    left: 500px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+p {
+  text-align: center;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  font-size: 60px;
+}
+p2 {
+  text-align: center;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px; 
+  padding-top: 00px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-left: 600px;
+}
+p3 {
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 25px; 
+}
+a:link {
+  color:  #a64dff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 30px; 
+}
+a:visited {
+  color:  #8000ff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 30px; 
+}
+a:hover {
+  color: hotpink;
+}
+p4 {
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 25px; 
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  font-size: 40px;
+  line-height: 0.8;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.right {
+  float: right;
+}
+
+body {
+ background-image: linear-gradient(to right,  #ffb3ff
+,   #ffb366);
+}
+
+#theImage { visibility: hidden; }
